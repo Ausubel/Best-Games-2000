@@ -1,0 +1,21 @@
+#header{
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+#header h2{
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Barlow Semi Condensed';
+}
+
+main{
+
+    height: 95vh;
+}
+.col-md-4{
+
+    height: 95vh;
+}
+img{
+    object-fit: cover;;
+    height: 95vh;
+}

@@ -1,0 +1,103 @@
+body{
+    background-color: #f9f9f9;
+}
+#logo{
+    width: 40px;
+}
+
+#titulo{
+    width: 400px;
+}
+.navbarSupportedContent ul li a{
+    color: #00A8FF !important;
+}
+
+#header{
+    background-image: linear-gradient(to right top, #e97b97, #dd7ebb, #be8add, #889af6, #00a8ff);
+}
+#header a{
+
+    font-family: 'Barlow Semi Condensed';
+}
+#header a::after{
+    content: " | ";
+}
+#textito{
+    text-decoration: overline ;
+}
+#main .carousel-inner img{
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    color:white;
+    z-index: 1;
+}
+
+.btn-botonsito{
+    background-color: #fb7e14;
+    color: white !important;
+}
+
+.btn-botonsito:hover{
+    background-color: #af621e;
+}
+
+.boton{
+    background: #eb94d0;
+    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+    font-family: Arial;
+    color: #fafafa;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+}
+.boton:hover {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    text-decoration: none;
+  }
+
+#footer{  
+    background-image: linear-gradient(to right top, #e97b97, #dd7ebb, #be8add, #889af6, #00a8ff);
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer a::after{
+    content: " | ";
+}
+
+/*salida rapida a un problema del scrollpy*/
+.espacio{
+    height: 56px;
+}
